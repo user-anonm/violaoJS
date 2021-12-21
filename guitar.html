@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitarra</title>
+    <link rel="stylesheet" href="guitar.css">
+</head>
+<body>
+    <main>
+        <img src="" alt="">
+        <section class="main-content">
+            <div class="teclas">
+                <h2 class="h2">Cordas do violao</h2>
+                <ul class="key-map-list">
+                    <li><kbd class="key-code">Q</kbd>
+                        <span class="key-sound">Mi</span>
+                    </li>
+                    <li><kbd class="key-code">W</kbd>
+                        <span class="key-sound">lá</span>
+                    </li>
+                    <li><kbd class="key-code">E</kbd>
+                        <span class="key-sound">Ré</span>
+                    </li>
+                    <li><kbd class="key-code">A</kbd>
+                        <span class="key-sound">Sol</span>
+                    </li>
+                    <li><kbd class="key-code">S</kbd>
+                        <span class="key-sound">Si</span>
+                    </li>
+                    <li><kbd class="key-code">D</kbd>
+                        <span class="key-sound">Mi</span>
+                    </li>
+                    </ul>
+                    <h2 class="h2">Acordes do violao</h2>
+                    <ul class="key-map-list">
+                    <li><kbd class="key-code">U</kbd>
+                        <span class="key-sound">Acorde de Lá</span>
+                    </li>
+                    <li><kbd class="key-code">I</kbd>
+                        <span class="key-sound">Acorde de Ré</span>
+                    </li>
+                    <li><kbd class="key-code">O</kbd>
+                        <span class="key-sound">Acorde de Mi menor</span>
+                    </li>
+                    <li><kbd class="key-code">L</kbd>
+                        <span class="key-sound">acorde de Dó</span>
+                    </li>
+                    <li><kbd class="key-code">j</kbd>
+                        <span class="key-sound">Acorde de Sol</span>
+                    </li>
+                    <li><kbd class="key-code">k</kbd>
+                        <span class="key-sound">Acorde de Lá menor</span>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="main-title">Braço do Violao</h1>
+            <div class="press-key-sound">
+                <div data-key="81" class="key mizao">
+                    <!-- Q -->
+                    <kbd></kbd>
+                </div>
+                <div data-key="87" class="key la">
+                    <!-- w -->
+                    <kbd></kbd>
+                </div>
+                <div data-key="69" class="key re">
+                    <!-- e -->
+                    <kbd></kbd>
+                </div>
+                <div data-key="65" class="key sol">
+                    <!-- a -->
+                    <kbd></kbd>
+                </div>
+                <div data-key="83" class="key si">
+                    <!-- s -->
+                    <kbd></kbd>
+                </div>
+                <div data-key="68" class="key mizinha">
+                    <!-- d -->
+                    <kbd></kbd>
+                </div>
+                <div  data-key="85" class="key acorde-la">
+                    <!-- u -->
+                    <div  data-key="85" class="key acordela fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div  data-key="85" class="key acordela fng2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="85" class="key acordela fng3">
+                        <kbd>3</kbd>
+                    </div>
+                </div>
+                <div data-key="73" class="key acorde-re">
+                    <!-- i -->
+                    <div data-key="73" class="acordere fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="73"  class="acordere fng2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="73"  class="acordere fng3">
+                        <kbd>3</kbd>
+                    </div>
+                </div>
+                <div data-key="79" class="key acorde-mimenor">
+                    <!-- o -->
+                    <div data-key="79"  class="acordemimenor fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="79"  class="acordemimenor fng2">
+                        <kbd>2</kbd>
+                    </div>
+                </div>
+                <div data-key="76" class="key acorde-do">
+                    <!-- L -->
+                    <div data-key="76"  class="acordedo fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="76" class="acordedo fng2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="76" class="acordedo fng3">
+                        <kbd>3</kbd>
+                    </div>
+                </div>
+                <div data-key="74" class="key acorde-sol">
+                    <!-- j -->
+                    <div data-key="74" class="acordesol fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="74" class="acordesol fng2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="74" class="acordesol fng3">
+                        <kbd>3</kbd>
+                    </div>
+                    <div data-key="74" class="acordesol fng4">
+                        <kbd>4</kbd>
+                    </div>
+                </div>
+                <div data-key="75" class="key acorde-lamenor">
+                    <!-- k -->
+                    <div data-key="75" class="lamenor fng1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="75" class="lamenor fng2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="75" class="lamenor fng3">
+                        <kbd>3</kbd>
+                    </div>
+                </div>
+                <img src="img/braço-violao.png" alt="violao" class="violao">
+            </div> 
+        </section>
+    </main>
+    <audio data-key="81" src="audio/mizona.wav"></audio>
+    <audio data-key="87" src="audio/5corda.wav"></audio>
+    <audio data-key="69" src="audio/4corda.wav"></audio>
+    <audio data-key="65" src="audio/3corda.wav"></audio>
+    <audio data-key="83" src="audio/2corda.wav"></audio>
+    <audio data-key="68" src="audio/mizinha.wav"></audio>
+    <audio data-key="85" src="audio/la.wav"></audio>
+    <audio data-key="73" src="audio/re.wav"></audio>
+    <audio data-key="79" src="audio/mimenor1.wav"></audio>
+    <audio data-key="76" src="audio/do.wav"></audio>
+    <audio data-key="74" src="audio/sol.wav"></audio>
+    <audio data-key="75" src="audio/lamenor1.wav"></audio>
+
+    <!-- <script src="/guitar.js"></script> -->
+    <script src="playGuitar.js"></script>
+</body>
+</html>
